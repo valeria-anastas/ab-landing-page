@@ -35,7 +35,7 @@
 ## Содержимое проекта
 
 - [`ab_landing_page_analysis.ipynb`](ab_landing_page_analysis.ipynb) — полный Notebook с постановкой задачи, пояснениями, вычислениями, визуализациями и выводами.
-- [`data_ab.csv`](data_ab.csv) — полный исходный учебный датасет (**294 478 строк**, 5 колонок).
+- [`data/`](data/) — полный исходный учебный датасет (**294 478 строк**, 5 колонок), разбитый на 18 CSV-файлов без удаления строк для корректной передачи через GitHub.
 - [`requirements.txt`](requirements.txt) — зависимости Python.
 
 ## Как запустить
@@ -43,7 +43,7 @@
 1. Клонируйте репозиторий `git clone https://github.com/valeria-anastas/ab-landing-page.git` или скачайте папку проекта.
 2. Перейдите в каталог `cd ab-landing-page` (при клонировании).
 3. Установите зависимости: `pip install -r requirements.txt`.
-4. Откройте `ab_landing_page_analysis.ipynb` в Jupyter Notebook или VS Code и выполните ячейки по порядку. `data_ab.csv` лежит рядом с Notebook.
+4. Откройте `ab_landing_page_analysis.ipynb` в Jupyter Notebook или VS Code и выполните ячейки по порядку. Notebook автоматически объединяет 18 файлов из папки `data/` в исходном порядке.
 
 ## Ограничения
 
